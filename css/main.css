@@ -1,16 +1,13 @@
-background {
-  
-}
-
 body {
+  position: center;
   margin: 60px auto;
-  width: 90%;
+  width: 80%;
   /*background-image: url("https://i.ibb.co/z52Vmdg/jayjoanna.jpg");
 */
 }
-  nav ul,
+nav ul,
 footer ul {
-  font-family: "Helvetica", "Arial", "Sans-Serif";
+  font-family: "Helvetica";
   padding: 0px;
   list-style: none;
   font-weight: bold;
@@ -23,16 +20,19 @@ footer ul li {
 a {
   text-decoration: none;
   color: #999;
+  font-family:'Dancing Script';
+
 }
 a:hover {
   text-decoration: underline;
 }
 h1 {
   font-size: 3em;
-  font-family: "Helvetica", "Arial", "Sans-Serif";
+  font-family: 'Dancing Script', "Helvetica";
 }
 h2 {
   opacity: 0.7;
+  font-family:'Dancing Script';
 }
 p {
   margin: 0.5em 0em 1em 0em;
